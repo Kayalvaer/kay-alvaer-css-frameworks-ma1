@@ -1,0 +1,132 @@
+:root {
+    --background-light: #F4F3EE;
+    --body-colour: #E2E2E2;
+    --primary-colour-active: #C32C72;
+    --nav-primary: #E5E5E5;
+    --nav-logo: #6A6A6A;
+    --background-dark: rgba(0, 0, 0, 0.5);
+    --white: #FFFFFF;
+    --nav-gray: #8d8d8d;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--body-colour);
+
+}
+
+.border-danger {
+    size: 10px;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    max-height: 100%;
+}
+
+
+/* Heading */
+.heading-container {
+    padding-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: var(--nav-gray);
+    font-size: 34px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--nav-logo);
+}
+
+.navbar {
+    background-color: var(--background-light) !important;
+    color: var(--nav-gray);
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--nav-gray);
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--primary-colour-active);
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
+
+/* Footer */
+
+/* .foot-wrap{
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--background-light) !important;
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #8d8d8d;
+    padding: 0.5em;
+}
+
+.footer-boot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #8d8d8d;
+}
+
+footer a:hover {
+    color: var(--primary-colour-active);
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+        .foot-wrap {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    }  */
+    footer {
+        background-color: var(--background-light) !important;
+        margin-top: 2rem;
+        font-size: 15px;
+        color: #8d8d8d;
+        padding: 0.5em;
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a {
+        color: #8d8d8d;
+    }
+    
+    footer a:hover {
+        color: var(--primary-colour-active);
+    }
+
+
+
+
