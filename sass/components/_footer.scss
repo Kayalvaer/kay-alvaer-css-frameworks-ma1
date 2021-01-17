@@ -1,0 +1,20 @@
+/* Footer */
+footer {
+    background-color: getColour(background-light) !important;
+    margin-top: 2rem;
+    font-size: 15px;
+    color: getColour(nav-gray);
+    padding: 0.5em;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: getColour(nav-gray);
+}
+
+footer a:hover {
+    color: getColour(primary-colour-active);
+}

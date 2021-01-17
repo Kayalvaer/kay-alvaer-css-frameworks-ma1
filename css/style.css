@@ -1,0 +1,106 @@
+/* $tablet-width: 768px; */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  background-color: #E2E2E2;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+h1,
+h2, a {
+  font-family: "montserrat", sans-serif;
+}
+
+a {
+  font-size: 0.9em;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+/* 
+h2 {
+    margin-top: 2em;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 2.4em 0;
+} */
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--nav-logo);
+}
+
+.navbar {
+  background-color: #F4F3EE !important;
+  color: #8d8d8d;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #8d8d8d;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #C32C72;
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+.border-danger {
+  size: 10px;
+}
+
+.card-rosa {
+  background-color: #C32C72;
+}
+
+.card-white {
+  background-color: #FFFFFF;
+}
+
+.card-light {
+  background-color: #F4F3EE;
+}
+
+.header-text {
+  color: #8d8d8d;
+  font-size: 34px;
+}
+
+/* Footer */
+footer {
+  background-color: #F4F3EE !important;
+  margin-top: 2rem;
+  font-size: 15px;
+  color: #8d8d8d;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #8d8d8d;
+}
+
+footer a:hover {
+  color: #C32C72;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+//set as stand alone variables
+$font-primary: "open sans", sans-serif;
+$font-headings: "montserrat", sans-serif;
+
+/* $tablet-width: 768px; */
+ 
+$colours: (
+    background-light: #F4F3EE,
+    body-colour: #E2E2E2,
+    primary-colour-active: #C32C72,
+    nav-primary: #E5E5E5,
+    nav-logo: #6A6A6A,
+    background-dark: rgba(0, 0, 0, 0.5),
+    white: #FFFFFF,
+    nav-gray: #8d8d8d,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

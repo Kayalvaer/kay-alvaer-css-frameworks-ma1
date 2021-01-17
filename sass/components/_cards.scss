@@ -1,0 +1,13 @@
+.border-danger {
+    size: 10px;
+}
+.card-rosa {
+    background-color: getColour(primary-colour-active);
+}
+
+.card-white {
+    background-color: getColour(white);
+}
+.card-light {
+    background-color: getColour(background-light);
+}

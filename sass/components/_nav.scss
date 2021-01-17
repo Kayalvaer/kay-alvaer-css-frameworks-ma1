@@ -1,0 +1,25 @@
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--nav-logo);
+}
+
+.navbar {
+    background-color: getColour(background-light) !important;
+    color: getColour(nav-gray);
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: getColour(nav-gray);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: getColour(primary-colour-active);
+}
+
+.navbar-collapse {
+    z-index: 1;
+}

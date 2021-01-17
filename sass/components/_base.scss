@@ -1,0 +1,17 @@
+* {
+    box-sizing:border-box;
+}
+
+//keeps footer at the page bottom
+html, body {
+    height: 100%;
+}
+
+body{
+    font-family: $font-primary;
+    background-color: getColour(body-colour);
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
