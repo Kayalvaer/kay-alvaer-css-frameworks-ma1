@@ -21,27 +21,25 @@ h2, a {
   font-family: "montserrat", sans-serif;
 }
 
-a {
-  font-size: 0.9em;
-}
-
 body {
   font-family: "montserrat", sans-serif;
 }
 
-/* 
-h2 {
-    margin-top: 2em;
-}
-
-p {
-    font-size: 0.9em;
-    margin: 2.4em 0;
-} */
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 36px;
   font-weight: 300;
+}
+
+footer {
+  font-size: 15px;
+}
+
+.header-text {
+  font-size: 34px;
+}
+
+.navbar-brand {
   color: var(--nav-logo);
 }
 
@@ -81,14 +79,12 @@ p {
 
 .header-text {
   color: #8d8d8d;
-  font-size: 34px;
 }
 
 /* Footer */
 footer {
   background-color: #F4F3EE !important;
   margin-top: 2rem;
-  font-size: 15px;
   color: #8d8d8d;
   padding: 0.5em;
   position: fixed;
